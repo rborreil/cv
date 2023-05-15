@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+
+/* PREZ PREZ PREZ PREZ PREZ */
+.prez {
+    background: #ffdcb4;
+    height: auto;
+    border-radius: 25px;
+}
+
+.photo-texte {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.photo img {
+    height: 175px;
+    position: relative;
+    top: 5%;
+}
+
+.texte-p {
+    flex-direction: column;
+    max-width: 75%;
+    line-height: 150%;
+}
+
+.nom {
+    margin: 3% 30% 5% 30%;
+}
+
+.poste {
+    margin-bottom: 2%;
+}
+
+.coordonnees {
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+/* FORMATION FORMATION FORMATION FORMATION FORMATION */
+.formation {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    margin-top: 10px;
+    line-height: 150%;
+}
+
+.formation p {
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.titre-f {
+    background: black;
+    color: whitesmoke;
+    max-width: 4%;
+    border-radius: 25px;
+}
+
+.titre-f h2 {
+    display: flex;
+    /* CHECKER BIZARRERIE */
+    justify-content: center;
+    margin-top: 100%;
+    margin-bottom: 100%;
+    font-size: 1.5rem;
+    transform: rotate(-90deg) translateX(-140px);
+}
+
+.text-f {
+    width: 95%;
+}
+
+/* Diplômes */
+.diplomes {
+    background: #59b6db99;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.D1, .D2 {
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.diplomes h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.diplomes h3 {
+    font-size: 1.3rem;
+}
+
+/* Stages */
+.stages {
+    background: #59b6db99;
+    border-radius: 25px;
+    padding: 2% 2% 2% 0;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.stages h2 {
+    font-weight: 500;
+}
+
+/* Web */
+.stages-web {
+    display: flex;
+    align-items: center;
+    line-height: 175%;
+}
+
+.stages-web .texte {
+    margin-right: 5%;
+}
+
+/* Business */
+.stages-business {
+    display: flex;
+    flex-direction: column;
+}
+
+.stages-business .texte {
+    margin-right: 5%;
+}
+
+.stages-business .annee {
+    margin-left: 15%;
+}
+
+.S2, .S3 {
+    display: flex;
+    align-items: center;
+}
+
+.S2 {
+    margin-bottom: 3%;
+}
+
+.S3 {
+    margin-top: 3%;
+}
+
+
+/* COMPETENCES COMPETENCES COMPETENCES COMPETENCES COMPETENCES */
+.competences {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #ffdcb4; */
+    height: auto;
+    border-radius: 25px;
+    line-height: 125%;
+    margin-top: 1%;
+}
+
+.titre-c {
+    background: black;
+    color: whitesmoke;
+    max-width: 4%;
+    border-radius: 25px;
+}
+
+.texte-c {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.titre-c h2 {
+    display: flex;
+    position: relative;
+    /* top: 20%; */
+    /* CHECKER BIZARRERIE */
+    justify-content: center;
+    /* margin-top: 100%; */
+    /* margin-bottom: 100%; */
+    font-size: 1.5rem;
+    transform: rotate(-90deg) translateX(-140px);
+}
+
+/* Informatique */
+.informatique {
+    background-color: #ffdcb4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 45%;
+    text-align: center;
+    border-radius: 25px;
+    margin-right: .5%;
+    padding: 2%;
+}
+
+.informatique h2,
+.informatique h3,
+.informatique {
+    font-size: 100%;
+}
+
+.informatique h2 {
+    text-transform: uppercase;
+}
+
+.programmation,
+.design,
+.collaboratif,
+.softskills {
+    margin: 4%;
+}
+
+/* Autres */
+.autres {
+    background-color: #ffdcb4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-radius: 25px;
+    margin-left: .5%;
+    padding: 2%;
+}
+
+.autres h2,
+.autres h3,
+.autres {
+    font-size: 100%;
+}
+
+.anglais,
+.espagnol {
+    margin: 15%;
+}
+
+.voyages,
+.sport,
+.bde {
+    margin: 4%;
+}
+
+
+/* XP-PRO XP-PRO XP-PRO XP-PRO XP-PRO */
+.experience-pro {
+    display: flex;
+    background: #59B6DB;
+    height: auto;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+
+/* MEDIAS QUERIES ----- RESPONSIVE DESIGN */
